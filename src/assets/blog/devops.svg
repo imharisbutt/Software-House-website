@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a2038"/><stop offset="1" stop-color="#0d2c4a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg4)"/>
+  <circle cx="40" cy="40" r="90" fill="#4fb88b" opacity="0.1"/>
+  <circle cx="360" cy="270" r="90" fill="#4fb88b" opacity="0.1"/>
+
+  <rect x="50" y="76" width="130" height="90" rx="8" fill="#132845"/>
+  <rect x="64" y="90" width="50" height="7" rx="3.5" fill="#4fb88b"/>
+  <rect x="64" y="106" width="90" height="6" rx="3" fill="#5b7791"/>
+  <rect x="64" y="120" width="70" height="6" rx="3" fill="#5b7791"/>
+  <rect x="64" y="140" width="34" height="14" rx="7" fill="#4fb88b"/>
+
+  <rect x="220" y="76" width="130" height="90" rx="8" fill="#132845"/>
+  <rect x="234" y="90" width="50" height="7" rx="3.5" fill="#4fb88b"/>
+  <circle cx="285" cy="128" r="24" fill="none" stroke="#0a2038" stroke-width="8"/>
+  <circle cx="285" cy="128" r="24" fill="none" stroke="#4fb88b" stroke-width="8" stroke-dasharray="112" stroke-dashoffset="30" stroke-linecap="round" transform="rotate(-90 285 128)"/>
+  <rect x="234" y="140" width="30" height="6" rx="3" fill="#5b7791"/>
+
+  <rect x="135" y="200" width="130" height="70" rx="8" fill="#132845"/>
+  <rect x="149" y="214" width="50" height="7" rx="3.5" fill="#4fb88b"/>
+  <rect x="149" y="230" width="16" height="16" rx="4" fill="#4fb88b"/>
+  <rect x="171" y="230" width="16" height="16" rx="4" fill="#3d5a78"/>
+  <rect x="193" y="230" width="16" height="16" rx="4" fill="#4fb88b"/>
+  <rect x="215" y="230" width="16" height="16" rx="4" fill="#3d5a78"/>
+  <rect x="149" y="252" width="80" height="6" rx="3" fill="#5b7791"/>
+
+  <!-- connecting pipeline lines with arrowheads -->
+  <path d="M180 118 h30" stroke="#4fb88b" stroke-width="3" fill="none"/>
+  <polygon points="212,113 222,118 212,123" fill="#4fb88b"/>
+
+  <path d="M115 166 v18 q0 8 8 8 h50" stroke="#4fb88b" stroke-width="3" fill="none"/>
+  <polygon points="171,187 181,192 171,197" fill="#4fb88b"/>
+
+  <path d="M283 166 v18 q0 8 -8 8 h-40" stroke="#4fb88b" stroke-width="3" fill="none"/>
+  <polygon points="243,187 233,192 243,197" fill="#4fb88b"/>
+</svg>

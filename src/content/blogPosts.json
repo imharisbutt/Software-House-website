@@ -1,0 +1,93 @@
+[
+  {
+    "slug": "the-future-of-web-development",
+    "title": "The Future of Web Development",
+    "excerpt": "Key trends and technologies shaping the web.",
+    "author": "Amelia Chen",
+    "date": "2024-05-10",
+    "readTime": "5 min read",
+    "category": "Engineering",
+    "tags": ["web", "trends", "engineering"],
+    "body": [
+      "The web platform keeps absorbing capabilities that used to require native apps — offline support, hardware access, and smoother animations are all standard expectations now, not stretch goals.",
+      "Server-driven rendering patterns have made a comeback, but with far better developer ergonomics than the pre-SPA era. The result is faster first paints without giving up the interactivity users expect.",
+      "The teams that stay productive over the next few years will be the ones that pick boring, well-supported tools for their core stack and save the experimentation for the parts of the product that actually benefit from it."
+    ],
+    "detail": {
+      "authorBio": "Senior Frontend Engineer with 10+ years of experience building performant, accessible, and delightful web applications.",
+      "sections": [
+        {
+          "id": "the-new-expectations",
+          "heading": "The New Expectations",
+          "paragraphs": [
+            "Users expect native-like experiences on the web. That means offline access, smooth animations, real-time updates, and instant interactions."
+          ],
+          "features": [
+            { "icon": "offline", "title": "Offline First", "text": "PWAs and offline support are no longer optional." },
+            { "icon": "performance", "title": "High Performance", "text": "Core Web Vitals and performance budgets are table stakes." },
+            { "icon": "experience", "title": "Rich Experiences", "text": "Complex animations and interactions are now expected on the web." }
+          ]
+        },
+        {
+          "id": "the-comeback-of-ssr",
+          "heading": "The Comeback of SSR",
+          "paragraphs": [
+            "Modern frameworks have redefined SSR. With React Server Components, Next.js, and other meta-frameworks, we get the best of both worlds: blazing fast initial loads with rich, interactive experiences."
+          ]
+        },
+        {
+          "id": "looking-ahead",
+          "heading": "Looking Ahead",
+          "paragraphs": [
+            "The future belongs to teams that focus on solving real user problems and use mature, reliable tools for the core. Experiment where it matters—and ship with confidence."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "building-scalable-saas-applications",
+    "title": "Building Scalable SaaS Applications",
+    "excerpt": "Best practices for building scalable and reliable SaaS products.",
+    "author": "Marcus Webb",
+    "date": "2024-04-20",
+    "readTime": "6 min read",
+    "category": "Engineering",
+    "tags": ["saas", "architecture", "engineering"],
+    "body": [
+      "Most SaaS products don't fail because of a single bad architectural decision — they slow down under the accumulation of small shortcuts taken when the team was smaller and the customer base was simpler.",
+      "The patterns that hold up well as a SaaS product grows are the boring ones: clear tenant isolation from day one, idempotent background jobs, and observability that lets you answer 'what changed' before a customer has to ask.",
+      "Scalability is as much an organizational problem as a technical one — the codebase needs to stay approachable enough that new engineers can safely make changes as the team grows."
+    ]
+  },
+  {
+    "slug": "ui-ux-design-principles",
+    "title": "UI/UX Design Principles",
+    "excerpt": "Important principles for creating amazing user experiences.",
+    "author": "Jordan Lee",
+    "date": "2024-04-15",
+    "readTime": "4 min read",
+    "category": "Design",
+    "tags": ["design", "ux", "product"],
+    "body": [
+      "Good UI design is mostly invisible — users notice friction, not polish. The goal isn't to impress with a clever interface, it's to make the user's goal obvious and the path to it short.",
+      "Consistency compounds. A design system that reuses the same patterns for similar actions lets users build intuition once and apply it everywhere in the product.",
+      "Every added element has a cost, even a well-designed one. The best interfaces are usually the ones where something was deliberately left out."
+    ]
+  },
+  {
+    "slug": "devops-automation-guide",
+    "title": "DevOps Automation Guide",
+    "excerpt": "How automation improves delivery speed and quality.",
+    "author": "Priya Nair",
+    "date": "2024-04-05",
+    "readTime": "7 min read",
+    "category": "Engineering",
+    "tags": ["devops", "automation", "engineering"],
+    "body": [
+      "Automation pays off fastest in the steps teams repeat without thinking — running tests, building artifacts, and deploying to a known-good environment.",
+      "The most valuable automation isn't necessarily the most sophisticated pipeline; it's the one that removes a manual step someone was doing carefully but inconsistently.",
+      "Treating infrastructure and pipeline configuration as code, reviewed the same way application code is, turns deployment from a risky ritual into a routine, boring event — which is exactly what you want it to be."
+    ]
+  }
+]

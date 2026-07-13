@@ -1,0 +1,166 @@
+[
+  {
+    "slug": "fintrack-dashboard",
+    "title": "Fintrack Dashboard",
+    "client": "FinTrack Inc.",
+    "summary": "SaaS platform for financial analytics and reporting.",
+    "problem": "FinTrack's existing app was built on a prototype codebase that couldn't handle their growing user base. Sync was unreliable, crash rates were high, and the team couldn't ship new features without breaking existing ones.",
+    "solution": "We rebuilt the platform with a modern analytics engine and redesigned the reporting pipeline, introducing automated testing so the team could ship confidently every week.",
+    "techStack": ["React", "Node.js", "PostgreSQL", "Redis", "AWS"],
+    "results": [
+      "Crash rate dropped from 4.2% to 0.3%",
+      "Reporting latency reduced by 85%",
+      "Feature release cadence went from monthly to weekly"
+    ],
+    "category": "SaaS",
+    "tag": "SaaS",
+    "industry": "Finance",
+    "detail": {
+      "categoryBadge": "FINTECH PLATFORM",
+      "description": "A real-time financial analytics platform that helps businesses track performance, generate reports, and make data-driven decisions with confidence.",
+      "meta": {
+        "client": "FinTrack Inc.",
+        "year": "2024",
+        "duration": "6 Months",
+        "teamSize": "12 Team Members"
+      },
+      "techBadges": ["React", "Node.js", "PostgreSQL", "Redis", "AWS"],
+      "challenges": [
+        "High crash rates and system instability",
+        "Slow reporting and data sync issues",
+        "Difficult to add new features",
+        "Poor performance under load"
+      ],
+      "approach": [
+        "Rebuilt with scalable architecture",
+        "Implemented real-time data processing",
+        "Automated testing and CI/CD pipeline",
+        "Optimized database and query performance"
+      ],
+      "metrics": [
+        { "icon": "shield", "trend": "down", "label": "Crash Rate", "value": "4.2% → 0.3%", "caption": "92.8% Improvement" },
+        { "icon": "bolt", "trend": "up", "label": "Reporting Latency", "value": "85%", "caption": "Performance Boost" },
+        { "icon": "cycle", "trend": "up", "label": "Release Cadence", "value": "Weekly", "caption": "From Monthly" },
+        { "icon": "users", "trend": "up", "label": "User Growth", "value": "240%", "caption": "In 6 Months" }
+      ],
+      "techStackDetailed": [
+        { "icon": "react", "name": "React", "subtitle": "Frontend Library" },
+        { "icon": "node", "name": "Node.js", "subtitle": "Runtime" },
+        { "icon": "postgresql", "name": "PostgreSQL", "subtitle": "Database" },
+        { "icon": "redis", "name": "Redis", "subtitle": "Cache" },
+        { "icon": "aws", "name": "AWS", "subtitle": "Cloud Platform" }
+      ],
+      "process": [
+        { "icon": "research", "title": "Research", "description": "Understanding business needs and challenges" },
+        { "icon": "planning", "title": "Planning", "description": "Architecture and technical planning" },
+        { "icon": "design", "title": "UI Design", "description": "Creating intuitive and modern interfaces" },
+        { "icon": "development", "title": "Development", "description": "Building scalable and robust solutions" },
+        { "icon": "testing", "title": "Testing", "description": "Quality assurance and performance testing" },
+        { "icon": "deployment", "title": "Deployment", "description": "Smooth deployment and monitoring" }
+      ],
+      "resultsImpact": [
+        { "icon": "shield", "trend": "down", "label": "Crash Rate Dropped", "value": "4.2% → 0.3%", "caption": "92.8% improvement" },
+        { "icon": "bolt", "trend": "up", "label": "Reporting Latency", "value": "85%", "caption": "Performance improvement" },
+        { "icon": "cycle", "trend": "up", "label": "Release Cadence", "value": "Monthly → Weekly", "caption": "4x faster delivery" },
+        { "icon": "users", "trend": "up", "label": "System Uptime", "value": "99.9%", "caption": "High availability achieved" }
+      ],
+      "testimonial": {
+        "quote": "The new platform has transformed how we work. It's faster, more reliable, and gives us the confidence to ship new features every week.",
+        "authorName": "Alex Johnson",
+        "authorRole": "CTO, FinTrack Inc.",
+        "companyName": "FinTrack"
+      },
+      "relatedProjects": [
+        { "title": "PayFlow System", "description": "Payment processing platform" },
+        { "title": "TradeHub Platform", "description": "B2B trading and analytics" },
+        { "title": "InvestPro Dashboard", "description": "Investment analytics platform" }
+      ]
+    }
+  },
+  {
+    "slug": "healthhub-mobile-app",
+    "title": "HealthHub Mobile App",
+    "client": "HealthHub",
+    "summary": "Mobile application for booking doctor appointments.",
+    "problem": "HealthHub's booking flow lived across phone calls and a clunky web form, causing missed appointments and long wait times for patients.",
+    "solution": "We designed and built a native-quality mobile app for iOS and Android with real-time provider availability, reminders, and a streamlined booking flow.",
+    "techStack": ["React Native", "Node.js", "PostgreSQL", "Twilio"],
+    "results": [
+      "Missed appointments dropped by 40%",
+      "Average booking time cut from 6 minutes to under 1",
+      "4.8-star average rating across app stores"
+    ],
+    "category": "Mobile Apps",
+    "tag": "Mobile App",
+    "industry": "Healthcare",
+    "projectMeta": { "year": "2024", "duration": "4 Months", "teamSize": "6 Members" }
+  },
+  {
+    "slug": "edulearn-platform",
+    "title": "EduLearn Platform",
+    "client": "EduLearn",
+    "summary": "E-learning platform with live classes and assessments.",
+    "problem": "EduLearn needed to move from in-person classes to a reliable online platform without losing the interactivity of a live classroom.",
+    "solution": "We built a web platform combining live video classes, assignments, and automated assessments, integrated with their existing student records system.",
+    "techStack": ["Next.js", "WebRTC", "PostgreSQL", "AWS"],
+    "results": [
+      "Onboarded 5,000+ students in the first term",
+      "Assessment grading time cut by 70%",
+      "99.9% live-class uptime during peak hours"
+    ],
+    "category": "Web Applications",
+    "tag": "Web Application",
+    "industry": "Education"
+  },
+  {
+    "slug": "retail-pro-system",
+    "title": "Retail Pro System",
+    "client": "Retail Pro",
+    "summary": "Inventory & POS system for retail businesses.",
+    "problem": "Retail Pro's clients relied on a fragile spreadsheet-based process to manage inventory and sales, leading to stock discrepancies and reporting delays.",
+    "solution": "We built a unified inventory and point-of-sale system with real-time stock tracking, replacing their clients' spreadsheet workflows entirely.",
+    "techStack": ["React", "TypeScript", "Django", "PostgreSQL"],
+    "results": [
+      "Inventory discrepancies dropped by over 90%",
+      "Reporting time reduced from 2 days to under 1 hour",
+      "Rolled out to 40+ retail locations"
+    ],
+    "category": "Systems",
+    "tag": "Web Application",
+    "industry": "Retail"
+  },
+  {
+    "slug": "travelgo-website",
+    "title": "TravelGo Website",
+    "client": "TravelGo",
+    "summary": "Travel booking website with custom recommendations.",
+    "problem": "TravelGo's booking site had high drop-off rates during checkout and no way to personalize trip recommendations for returning visitors.",
+    "solution": "We rebuilt the booking flow to reduce checkout friction and added a recommendation engine based on browsing and past booking history.",
+    "techStack": ["Next.js", "Node.js", "PostgreSQL", "Stripe"],
+    "results": [
+      "Checkout drop-off reduced by 35%",
+      "Repeat bookings increased by 22%",
+      "Page load times cut in half"
+    ],
+    "category": "Web Applications",
+    "tag": "Web Application",
+    "industry": "Travel"
+  },
+  {
+    "slug": "taskly-saas",
+    "title": "Taskly SaaS",
+    "client": "Taskly",
+    "summary": "Project management SaaS for teams and enterprises.",
+    "problem": "Taskly's early product worked for small teams but broke down under the permissions and reporting needs of larger enterprise customers.",
+    "solution": "We rearchitected the permissions model and added enterprise reporting, letting Taskly move upmarket without disrupting existing customers.",
+    "techStack": ["React", "Node.js", "PostgreSQL", "Redis"],
+    "results": [
+      "Closed 3 enterprise contracts within a quarter of launch",
+      "Support tickets related to permissions dropped by 60%",
+      "Platform scaled to 10x the concurrent users"
+    ],
+    "category": "SaaS",
+    "tag": "SaaS",
+    "industry": "Productivity"
+  }
+]

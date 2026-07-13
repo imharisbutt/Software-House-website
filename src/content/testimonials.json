@@ -1,0 +1,20 @@
+[
+  {
+    "quote": "They rebuilt our app in half the time we expected and the crash rate dropped almost immediately. It felt like adding a senior team overnight.",
+    "author": "Diego Ramirez",
+    "role": "CEO",
+    "company": "FinTrack Inc."
+  },
+  {
+    "quote": "We needed a working product for investors in six weeks and genuinely didn't think it was possible. They shipped it, and it held up under real usage.",
+    "author": "Sarah Kim",
+    "role": "Founder",
+    "company": "Loop Rentals"
+  },
+  {
+    "quote": "What stood out wasn't just the code quality — it was how clearly they communicated tradeoffs so we could make good decisions fast.",
+    "author": "Tom Ellison",
+    "role": "VP of Product",
+    "company": "Northwind Logistics"
+  }
+]

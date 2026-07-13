@@ -1,0 +1,66 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-6);
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: 1px solid transparent;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  white-space: nowrap;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.primary {
+  background: var(--color-primary);
+  color: var(--color-primary-contrast);
+}
+
+.primary:hover:not(:disabled) {
+  background: var(--color-primary-hover);
+}
+
+.secondary {
+  background: var(--color-bg-alt);
+  color: var(--color-text);
+  border-color: var(--color-border);
+}
+
+.secondary:hover:not(:disabled) {
+  background: var(--color-border);
+}
+
+.outline {
+  background: transparent;
+  color: var(--color-primary-text);
+  border-color: var(--color-primary-text);
+}
+
+.outline:hover:not(:disabled) {
+  background: var(--color-bg-alt);
+}
+
+.onPrimary {
+  background: var(--color-bg);
+  color: var(--color-primary-text);
+}
+
+.onPrimary:hover:not(:disabled) {
+  background: var(--color-bg-alt);
+}
+
+.outlineOnDark {
+  background: transparent;
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.outlineOnDark:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.1);
+}

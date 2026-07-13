@@ -1,0 +1,107 @@
+[
+  {
+    "slug": "senior-frontend-developer",
+    "title": "Senior Frontend Developer",
+    "department": "Engineering",
+    "type": "Full-time",
+    "location": "Remote",
+    "stack": ["React", "TypeScript", "Next.js"],
+    "summary": "Lead frontend architecture and delivery across our client engagements.",
+    "responsibilities": [
+      "Build and maintain complex frontend applications for client projects",
+      "Set frontend architecture and coding standards across the team",
+      "Review code and mentor mid-level and junior engineers",
+      "Collaborate closely with design and backend teams on API contracts"
+    ],
+    "requirements": [
+      "4+ years of professional experience with React and TypeScript",
+      "Experience with Next.js or a similar server-rendered React framework",
+      "Strong understanding of web performance and accessibility",
+      "Comfortable working directly with clients on requirements"
+    ]
+  },
+  {
+    "slug": "backend-developer",
+    "title": "Backend Developer",
+    "department": "Engineering",
+    "type": "Full-time",
+    "location": "Remote",
+    "stack": ["Node.js", "Express", "PostgreSQL"],
+    "summary": "Design and build the backend services powering our client products.",
+    "responsibilities": [
+      "Design and implement REST/GraphQL APIs for client applications",
+      "Model and optimize PostgreSQL schemas for scale",
+      "Write automated tests for critical backend logic",
+      "Participate in code review and on-call rotation"
+    ],
+    "requirements": [
+      "3+ years of experience building backend services with Node.js",
+      "Solid understanding of relational database design",
+      "Experience with cloud infrastructure (AWS, GCP, or Azure)",
+      "Comfortable debugging production issues under time pressure"
+    ]
+  },
+  {
+    "slug": "ui-ux-designer",
+    "title": "UI/UX Designer",
+    "department": "Design",
+    "type": "Full-time",
+    "location": "Hybrid",
+    "stack": ["Figma", "Adobe XD", "Prototyping"],
+    "summary": "Own product design across client engagements, from research through polished UI.",
+    "responsibilities": [
+      "Run lightweight user research to inform design decisions",
+      "Produce wireframes, prototypes, and high-fidelity UI designs",
+      "Collaborate closely with engineers to ensure designs are implemented faithfully",
+      "Maintain design systems across client projects"
+    ],
+    "requirements": [
+      "3+ years of product design experience",
+      "A portfolio demonstrating end-to-end product design work",
+      "Proficiency with Figma and prototyping tools",
+      "Comfortable presenting and defending design decisions to clients"
+    ]
+  },
+  {
+    "slug": "qa-engineer",
+    "title": "QA Engineer",
+    "department": "Engineering",
+    "type": "Full-time",
+    "location": "Remote",
+    "stack": ["Automation", "Selenium", "Playwright"],
+    "summary": "Build and maintain automated test coverage across client products.",
+    "responsibilities": [
+      "Design and implement automated test suites using Playwright and Selenium",
+      "Identify gaps in test coverage and prioritize based on risk",
+      "Work with engineers to reproduce and triage reported bugs",
+      "Maintain CI test pipelines and keep flaky tests in check"
+    ],
+    "requirements": [
+      "2+ years of experience in test automation",
+      "Hands-on experience with Playwright, Selenium, or similar tools",
+      "Strong understanding of testing strategy across unit, integration, and end-to-end levels",
+      "Comfortable reading application code to write effective tests"
+    ]
+  },
+  {
+    "slug": "devops-engineer",
+    "title": "DevOps Engineer",
+    "department": "Engineering",
+    "type": "Full-time",
+    "location": "Remote",
+    "stack": ["AWS", "Docker", "Kubernetes"],
+    "summary": "Build and maintain the infrastructure and pipelines behind our client deployments.",
+    "responsibilities": [
+      "Design and maintain CI/CD pipelines for client projects",
+      "Manage containerized infrastructure on AWS and Kubernetes",
+      "Set up monitoring, logging, and alerting for production systems",
+      "Support engineers with infrastructure and deployment issues"
+    ],
+    "requirements": [
+      "3+ years of experience in a DevOps or platform engineering role",
+      "Hands-on experience with Docker and Kubernetes in production",
+      "Experience with AWS infrastructure and infrastructure-as-code tools",
+      "Strong troubleshooting skills under production pressure"
+    ]
+  }
+]

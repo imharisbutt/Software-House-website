@@ -1,0 +1,28 @@
+.banner {
+  background: var(--color-primary);
+  border-radius: var(--radius-lg);
+  padding: var(--space-8) var(--space-8);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-6);
+  flex-wrap: wrap;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.title {
+  color: var(--color-primary-contrast);
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  color: var(--color-primary-contrast);
+  opacity: 0.85;
+  font-size: 0.95rem;
+}

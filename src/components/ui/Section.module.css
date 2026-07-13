@@ -1,0 +1,19 @@
+.section {
+  margin: 0 auto;
+  padding: var(--space-16) var(--space-6);
+}
+
+.tight {
+  padding-top: var(--space-8);
+  padding-bottom: var(--space-8);
+}
+
+.alt {
+  background: var(--color-bg-alt);
+}
+
+.fullBleed {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}

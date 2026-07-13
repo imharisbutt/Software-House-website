@@ -1,0 +1,149 @@
+:root {
+  /* Brand palette sampled from the Devsloop logo: navy #103b63 + green #4fb88b */
+  --color-bg: #ffffff;
+  --color-bg-alt: #f5f9f8;
+  --color-text: #14344f;
+  --color-text-muted: #48616f;
+  --color-border: #103b631f;
+  --color-primary: #4fb88b;
+  --color-primary-hover: #3ea87b;
+  --color-primary-contrast: #0d2c4a;
+  /* Darker green for text sitting directly on light backgrounds — #4fb88b only
+     hits 2.45:1 on white (WCAG AA needs 4.5:1 for text); this hits 5.28:1.
+     Use for text/links, not for icon badges, borders, or fills on tinted
+     surfaces, which read fine at the brighter brand tone. */
+  --color-primary-text: #1f7a56;
+  --color-accent: #103b63;
+  --color-danger: #ef4444;
+  --color-success: #22c55e;
+
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  /* Geometric rounded sans that most closely recreates the Devsloop wordmark */
+  --font-brand: "Poppins", var(--font-sans);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-24: 6rem;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+
+  --max-width: 1200px;
+
+  --shadow-sm: 0 1px 2px rgba(16, 20, 40, 0.06);
+  --shadow-md: 0 8px 24px rgba(16, 20, 40, 0.08);
+  --shadow-lg: 0 24px 60px -12px rgba(16, 20, 40, 0.22);
+
+  --glass-bg: rgba(255, 255, 255, 0.72);
+  --glass-border: rgba(255, 255, 255, 0.6);
+
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --color-bg: #0f1a24;
+  --color-bg-alt: #17242f;
+  --color-text: #e6edf3;
+  --color-text-muted: #93a6b5;
+  --color-border: #2c3e4e;
+  --color-primary: #4fb88b;
+  --color-primary-hover: #5fc99c;
+  --color-primary-contrast: #0d2c4a;
+  /* #4fb88b already hits 7.17:1 on the dark surfaces used here, no darkening needed */
+  --color-primary-text: #4fb88b;
+  --color-accent: #4fb88b;
+  --color-danger: #ef4444;
+  --color-success: #22c55e;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 24px 60px -12px rgba(0, 0, 0, 0.55);
+
+  --glass-bg: rgba(23, 36, 47, 0.64);
+  --glass-border: rgba(255, 255, 255, 0.1);
+
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  color: var(--color-text);
+  background: var(--color-bg);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Navy logo art is unreadable on dark backgrounds; invert lightness while keeping hues */
+:root[data-theme="dark"] .brandLogo {
+  filter: invert(1) hue-rotate(180deg) saturate(0.85) brightness(1.1);
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+:focus-visible {
+  /* --color-primary-text: WCAG 1.4.11 requires 3:1 for focus indicators;
+     --color-primary alone only hits 2.45:1 against light backgrounds */
+  outline: 3px solid var(--color-primary-text);
+  outline-offset: 2px;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,261 @@
+.frame {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: #0b1220;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  overflow: hidden;
+  font-family: var(--font-sans);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.02) inset;
+}
+
+.sidebar {
+  width: 96px;
+  flex-shrink: 0;
+  background: #0a0f1c;
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 10px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.desktop .sidebar,
+.hero .sidebar {
+  width: 128px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 2px;
+}
+
+.brandMark {
+  width: 14px;
+  height: 14px;
+  border-radius: 4px;
+  background: linear-gradient(135deg, #4fb88b, #22c99a);
+  flex-shrink: 0;
+}
+
+.brandName {
+  font-size: 9px;
+  font-weight: 700;
+  color: #f1f5f9;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 6px;
+  border-radius: 5px;
+  font-size: 7.5px;
+  font-weight: 600;
+  color: rgba(226, 232, 240, 0.5);
+  white-space: nowrap;
+}
+
+.navItemActive {
+  background: rgba(79, 184, 139, 0.14);
+  color: #6ee7b7;
+}
+
+.navDivider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.06);
+  margin: 2px 0;
+}
+
+.main {
+  flex: 1;
+  min-width: 0;
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 6px;
+  padding: 4px 8px;
+  color: rgba(226, 232, 240, 0.4);
+  font-size: 7px;
+  flex: 1;
+  max-width: 140px;
+}
+
+.topbarRight {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.bellIcon {
+  color: rgba(226, 232, 240, 0.5);
+}
+
+.avatar {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #4fb88b, #103b63);
+  flex-shrink: 0;
+}
+
+.userMeta {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.userMeta strong {
+  font-size: 7px;
+  color: #f1f5f9;
+}
+
+.userMeta em {
+  font-size: 6px;
+  font-style: normal;
+  color: rgba(226, 232, 240, 0.45);
+}
+
+.contentTitle {
+  font-size: 9px;
+  font-weight: 700;
+  color: #f1f5f9;
+}
+
+.statGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+}
+
+.mobile .statGrid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.statCard {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 7px;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.statTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.statIcon {
+  width: 14px;
+  height: 14px;
+  border-radius: 4px;
+  background: rgba(79, 184, 139, 0.14);
+  color: #6ee7b7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.statDelta {
+  font-size: 6px;
+  font-weight: 700;
+  color: #6ee7b7;
+}
+
+.statValue {
+  font-size: 9px;
+  font-weight: 700;
+  color: #f8fafc;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.statLabel {
+  font-size: 6px;
+  color: rgba(226, 232, 240, 0.5);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.panels {
+  display: flex;
+  gap: 8px;
+  flex: 1;
+  min-height: 0;
+}
+
+.chartPanel {
+  flex: 1;
+  min-width: 0;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 7px;
+  padding: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.donutPanel {
+  width: 76px;
+  flex-shrink: 0;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 7px;
+  padding: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.panelTitle {
+  font-size: 6.5px;
+  font-weight: 700;
+  color: rgba(226, 232, 240, 0.65);
+  align-self: flex-start;
+}
+
+.chartSvg {
+  flex: 1;
+  width: 100%;
+  min-height: 0;
+}
+
+.donutSvg {
+  width: 44px;
+  height: 44px;
+}

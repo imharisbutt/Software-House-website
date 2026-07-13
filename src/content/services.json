@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "web-development",
+    "title": "Web Development",
+    "summary": "Custom web applications built with modern frameworks, from marketing sites to complex internal tools.",
+    "icon": "code"
+  },
+  {
+    "slug": "mobile-development",
+    "title": "Mobile Development",
+    "summary": "Native and cross-platform mobile apps for iOS and Android, designed for performance and scale.",
+    "icon": "mobile"
+  },
+  {
+    "slug": "mvp-builds",
+    "title": "MVP Builds",
+    "summary": "Rapid, scoped builds that get your product in front of real users and investors fast.",
+    "icon": "rocket"
+  },
+  {
+    "slug": "ai-integration",
+    "title": "AI Integration",
+    "summary": "Practical AI features — chat assistants, automation, and data pipelines — integrated into your existing product.",
+    "icon": "spark"
+  },
+  {
+    "slug": "product-design",
+    "title": "Product Design",
+    "summary": "UX research and UI design that turns rough ideas into clear, usable interfaces.",
+    "icon": "design"
+  },
+  {
+    "slug": "devops-cloud",
+    "title": "DevOps & Cloud",
+    "summary": "CI/CD pipelines, cloud infrastructure, and monitoring so your product stays reliable as it grows.",
+    "icon": "cloud"
+  }
+]
