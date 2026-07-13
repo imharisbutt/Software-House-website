@@ -2,15 +2,17 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: var(--radius-sm);
-  border: 1px solid var(--color-border);
-  background: var(--color-bg);
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
   color: var(--color-text);
+  cursor: pointer;
   flex-shrink: 0;
+  transition: color 0.15s ease, transform 0.15s ease;
 }
 
 .toggle:hover {
-  background: var(--color-bg-alt);
+  color: var(--color-primary-text);
+  transform: scale(1.1);
 }

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Meta } from "../../components/ui/Meta";
 import { Section } from "../../components/ui/Section";
 import { Button } from "../../components/ui/Button";
@@ -29,7 +30,7 @@ export function CareersListPage() {
         {jobs.length === 0 ? (
           <p className={servicesStyles.subtitle}>
             No open positions right now — check back soon, or reach out anyway via our{" "}
-            <a href="/contact">contact page</a>.
+            <Link to="/contact">contact page</Link>.
           </p>
         ) : (
           <div className={styles.list}>
