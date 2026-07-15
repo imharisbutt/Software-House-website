@@ -149,6 +149,14 @@
 
 .heroRight {
   position: relative;
+  isolation: isolate;
+  /* .heroImageGlow uses inset: -10% to bleed past this box for a soft glow
+     effect. Without clipping here, that overhang widens the document's
+     scrollable area past the viewport on the right, producing a white strip
+     and horizontal scrollbar. `clip` (with `hidden` as the fallback for
+     older browsers) clips paint without creating a scrollable box. */
+  overflow: hidden;
+  overflow: clip;
 }
 
 .heroImageGlow {
@@ -873,6 +881,18 @@
     height: 1px;
     background: rgba(56, 239, 125, 0.25);
     z-index: 0;
+  }
+
+  /* The row is a fixed 5-column grid, but the step count is
+     content-driven and isn't always a multiple of 5 (see
+     fintrack-dashboard's 6 steps). A line on the last column of a row
+     reaches for a "next" step that sits on the row below instead of
+     beside it, pushing 1.5 column-widths past the grid's right edge
+     and widening the whole document past the viewport. Every step in
+     the last column of a row has no same-row neighbor to connect to,
+     so its line must stay hidden regardless of the step's own index. */
+  .processStep:nth-child(5n) .processLine {
+    display: none;
   }
 
   .processIconWrap {
